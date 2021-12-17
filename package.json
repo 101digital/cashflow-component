@@ -1,7 +1,7 @@
 {
   "name": "@banking-component/cashflow-component",
   "private": true,
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Manage cashflow of wallets",
   "repository": {
     "type": "git",
