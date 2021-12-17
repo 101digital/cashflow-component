@@ -1,0 +1,46 @@
+{
+  "id": "cashflow-component",
+  "name": "Cashflow Component",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/101digital/react-native-banking-components.git",
+    "directory": "packages/cashflow-component"
+  },
+  "config": {
+    "env": {
+      "development": {
+        "financialBaseUrl": "https://sandbox.101digital.io/financial-profile-service/1.0.0"
+      },
+      "staging": {
+        "financialBaseUrl": "https://sandbox.101digital.io/financial-profile-service/1.0.0"
+      },
+      "production": {
+        "financialBaseUrl": "https://sandbox.101digital.io/financial-profile-service/1.0.0"
+      }
+    }
+  },
+  "dependencies": [
+    {
+      "name": "https://github.com/101digital/react-native-theme-component.git"
+    },
+    {
+      "name": "https://gitpkg.now.sh/101digital/react-native-banking-components/packages/core"
+    }
+  ],
+  "templates": [],
+  "texts": {
+    "cash_flow": {
+      "lbl_all_accounts": "All Accounts",
+      "btn_apply": "Apply",
+      "lbl_filter": "Filter By:",
+      "lbl_money_in": "Money In",
+      "lbl_money_out": "Money Out",
+      "lbl_today": "Today",
+      "lbl_1_month": "1 Month",
+      "lbl_3_months": "3 Months",
+      "lbl_6_months": "6 Months",
+      "lbl_1_year": "1 Year",
+      "lbl_custom_date": "Custom date"
+    }
+  }
+}
