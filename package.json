@@ -1,12 +1,11 @@
 {
   "name": "@banking-component/cashflow-component",
   "private": true,
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Manage cashflow of wallets",
   "repository": {
     "type": "git",
-    "url": "https://github.com/101digital/react-native-banking-components.git",
-    "directory": "packages/cashflow-component"
+    "url": "https://github.com/101digital/cashflow-component.git"
   },
   "main": "index.js",
   "types": "index.d.ts",
@@ -18,24 +17,23 @@
   "license": "MIT",
   "dependencies": {
     "moment": "^2.29.1",
-    "react-native-gifted-charts": "https://github.com/101digital/react-native-gifted-charts.git"
+    "react-native-gifted-charts": "https://github.com/101digital/react-native-gifted-charts.git",
+    "xdate": "^0.8.2"
   },
   "devDependencies": {
-    "@banking-component/core": "https://gitpkg.now.sh/101digital/react-native-banking-components/packages/core",
+    "@banking-component/core": "https://github.com/101digital/banking-component-core.git",
     "@types/react": "^17.0.20",
     "@types/react-native": "^0.65.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-native": "^0.65.1",
-    "react-native-calendars": "^1.1267.0",
     "react-native-canvas": "^0.1.38",
     "react-native-svg": "^12.1.1",
     "react-native-theme-component": "https://github.com/101digital/react-native-theme-component.git",
-    "typescript": "^4.4.2",
-    "xdate": "^0.8.2"
+    "typescript": "^4.4.2"
   },
   "peerDependencies": {
-    "@banking-component/core": "https://gitpkg.now.sh/101digital/react-native-banking-components/packages/core",
+    "@banking-component/core": "https://github.com/101digital/banking-component-core.git",
     "react": "^17.0.2",
     "react-native": "^0.65.1",
     "react-native-svg": "^12.1.1",

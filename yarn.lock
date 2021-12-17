@@ -677,9 +677,9 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@banking-component/core@https://gitpkg.now.sh/101digital/react-native-banking-components/packages/core":
-  version "1.1.19"
-  resolved "https://gitpkg.now.sh/101digital/react-native-banking-components/packages/core#1e85abcd520c88c79c463c46ea1467d58b25d25f"
+"@banking-component/core@https://github.com/101digital/banking-component-core.git":
+  version "1.1.15"
+  resolved "https://github.com/101digital/banking-component-core.git#03350e7c891d5c044a2329ccef4ae9d518e2adf3"
   dependencies:
     lodash "^4.17.21"
 
@@ -3439,7 +3439,7 @@ react-native-animatable@1.3.3:
   dependencies:
     prop-types "^15.7.2"
 
-react-native-calendars@^1.1264.0, react-native-calendars@^1.1267.0:
+react-native-calendars@^1.1264.0:
   version "1.1274.0"
   resolved "https://registry.yarnpkg.com/react-native-calendars/-/react-native-calendars-1.1274.0.tgz#a2c74d3cadc0b37c32b85247f30bd18c8266e86a"
   integrity sha512-Dt+0Juscm3+bllriT4xYSYAb0bG8+z4/w7yQoydyqEotjB0UA+XZx4WBWVkJ10jm7H8PO1UmLlboJEaIq5s/sw==
